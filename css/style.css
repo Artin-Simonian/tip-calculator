@@ -1,0 +1,71 @@
+/*
+color pallete
+level 5 blue: #03256C
+level 4 blue: #2541b2
+level 3 blue: #1768ac
+level 4 blue: #06bee1
+white: #fff
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 2rem;
+  background-color: #03256c;
+  width: 30%;
+  height: 35rem;
+  margin: 4rem auto;
+  border-radius: 50px;
+  border: solid 5px #1768ac;
+}
+
+main > h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 5rem;
+  text-shadow: #1768ac 4px 2px;
+  margin-bottom: 0.5rem;
+}
+
+#total {
+  margin: 0 0 2rem 0;
+}
+
+#total > h1,
+#tip > h1 {
+  color: #fff;
+  font-size: 3rem;
+  text-shadow: #1768ac 4px 2px;
+}
+
+input {
+  padding: 0.3rem;
+  border-radius: 20px;
+  border: solid 3px #1768ac;
+  font-size: 1rem;
+}
+
+button {
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  border: solid 5px #1768ac;
+  background-color: #06bee1;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #06bee1;
+}
+
+#total > p {
+  color: #fff;
+  font-size: 3rem;
+  text-shadow: #1768ac 4px 2px;
+}
